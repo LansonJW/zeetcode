@@ -5,7 +5,7 @@ def print_header():
     print('birthday app')
     print('---------------------')
 
-
+#find a way to force year to be entered > 1800
 def get_birthday_from_user():
     print('when were you born?')
     year = int(input('year [YYYY]: '))
